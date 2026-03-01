@@ -1,0 +1,64 @@
+main{
+    text-align: center;
+    padding: 180px;
+    font-size:35px;
+}
+
+main a,p{
+    text-decoration: none; 
+    font-family: jod;
+    color:#f8f7f2;
+    font-size:50px ;
+     text-shadow: 2px 2px 5px #000000;
+}
+
+
+article{
+    margin: 40px;
+    padding-bottom: 30px;
+    line-height: 25px
+}
+
+article h2{
+    font-size: large;
+    font-family: open;
+}
+
+article p{
+    color: black;
+    font-family: open ;
+    font-size: medium;
+    text-shadow: none;
+}
+
+
+
+@media (max-width:768px){
+
+   main{
+        padding: 80px 20px;
+        font-size: 22px;
+    }
+
+    main p{
+        font-size: 23px;
+    }
+
+    main a{
+        font-size: 23px;
+    }
+
+    
+    article{
+        line-height: 18px;
+        padding: 0px;
+    }
+
+    article h2 {
+        font-size: medium;
+    }
+    article p{
+        font-size: small;
+    }
+
+}

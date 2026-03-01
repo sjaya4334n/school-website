@@ -1,0 +1,97 @@
+main{
+    text-align: center;
+    padding: 200px;
+    font-size:35px;
+}
+
+main p{
+     font-family: jod;
+    color:#f8f7f2;
+    font-size:50px ;
+     text-shadow: 2px 2px 5px #000000;
+}
+
+
+table{
+    margin-left:40px ;
+    margin-bottom: 50px;
+     border-collapse: collapse;
+}
+
+table th,td,tbody,thead{
+     border: 2px solid black;
+     padding: 20px; 
+     color: black; 
+    
+}
+
+.head{
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+    color: black;
+    font-weight: bolder;
+}
+
+
+article{
+    margin: 40px;
+    padding-bottom: 10px;
+    line-height: 25px
+}
+
+article h2{
+    font-size: large;
+    font-family: open;
+}
+
+article p{
+    color: black;
+    font-family:open;
+    font-size: medium;
+}
+
+
+
+@media (max-width:768px){
+
+   main{
+        padding: 80px 20px;
+        font-size: 22px;
+    }
+
+    main p{
+        font-size: 23px;
+    }
+
+    main a{
+        font-size: 23px;
+    }
+
+
+     table{
+        margin: 2px;
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    table th,
+    table td{
+        padding: 7px;
+    }
+
+
+    article{
+        line-height: 18px;
+        padding: 0px;
+    }
+
+    article h2 {
+        font-size: medium;
+    }
+    article p{
+        font-size: small;
+    }
+    
+}

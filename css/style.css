@@ -1,0 +1,167 @@
+@font-face {
+    font-family: open;
+    src: url(../font/OpenSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: schoolfont;
+    src: url(../font/schoolfont.ttf);
+}
+
+@font-face{
+    font-family:jod ;
+    src: url(../font/TeacherJordan.ttf);
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.bar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #f8f7f0;   
+    z-index: 1000; 
+    border-bottom: 1px solid black;     
+}
+
+img{
+   width: 100px;
+}
+
+.logo{
+    display: flex;
+}
+
+h1{
+    padding-top: 27px;
+    font-family:schoolfont ;
+    font-size:x-large;
+    color: #D2A047;
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+    padding-left: 600px;
+    padding-top: 40px;
+}
+
+nav a{
+    font-family: open;
+    text-decoration: none;
+    color:#161F48;
+    font-weight: bold;
+}
+
+
+.bg{
+    background-image: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 90px;
+    background-attachment:fixed;  
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f8f7f0;
+    border-top:1px solid black;
+}
+
+footer p{
+    color:#161F48;
+    font-family:open;
+    font-size: medium;
+    padding-top: 20px;
+    padding-left: 30px;
+    text-shadow: none;
+}
+
+.icon{
+    padding-top: 25px;
+    width: 25px;
+}
+
+.ic{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+@media (max-width: 768px){
+
+    .bar{
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .logo{
+        flex-direction: row;
+        padding-left: 50px;
+    }
+
+    img{
+        width: 70px;
+    }
+
+    h1{ 
+        font-size: medium;
+        padding-top: 18px;
+        text-align: center;
+    }
+
+
+    nav{
+        flex-direction:row;
+        padding-left: 80px;
+        padding-top: 3px;
+        gap: 65px;
+        align-items: center;
+        font-size: x-small;
+    }
+
+
+    .bg{
+        height: 250px;
+        background-attachment: scroll;
+    }
+
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0px;
+        padding: 10px;
+    }
+
+    footer p{
+        padding-left: 0;
+        font-size:small;
+    }
+
+    .ic{
+        justify-content: center;
+    }
+
+    .icon{
+        width: 15px;
+    }
+
+}
